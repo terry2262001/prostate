@@ -8,14 +8,16 @@ It supports synchronous and asynchronous state updates, nested state management,
 ---
 
 ## Getting Started
-
-### Add the package to your project
+### Add Get to your pubspec.yaml file:
+```
+dependencies:
+  prostate:
+```  
+### Import get in files that it will be used:
 Import the necessary files into your Flutter project:
 
 ```dart
-import 'lib/src/observable.dart';
-import 'lib/src/state_manager.dart';
-import 'lib/src/state_builder.dart';
+import 'package:prostate/prostate.dart';
 ```  
 
 ### Initialize a `StateManager` instance
